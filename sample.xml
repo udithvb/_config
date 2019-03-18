@@ -1,0 +1,34 @@
+<rss version="2.0">
+	
+    
+	<channel>
+		
+        
+		<title>VB</title>
+		
+        
+		<link>https://www.udithvb.ml</link>
+		
+        
+		<description>Sample RSS</description>
+		
+        
+		<item>
+			
+            
+			<title>Sample_title</title>
+			
+            
+			<description>Sample_description</description>
+			 
+            
+			<link>www.axorvb.tk</link>
+			
+        
+		</item>
+		
+    
+	</channel>
+	
+
+</rss>
