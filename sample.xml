@@ -1,19 +1,7 @@
 <rss version="2.0">
-	
-    
 	<channel>
-		
-        
 		<title>VB</title>
-		
-        
 		<link>https://www.udithvb.ml</link>
-		
-        
-		<description>Sample RSS</description>
-
-
+		<description>Boiler Plate</description>
 	</channel>
-	
-
 </rss>
