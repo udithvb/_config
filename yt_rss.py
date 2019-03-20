@@ -1,9 +1,13 @@
+#!/home/ubuntu/anaconda3/bin/python
 from bs4 import BeautifulSoup
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as md
+from sys import argv
+
+_,html = argv
 
 #read rendered html
-with open("gav_sen.html",'r') as ytf:
+with open(html,'r') as ytf:
     html_doc = ytf.read() 
 
 sp = BeautifulSoup(html_doc,'lxml')
@@ -21,7 +25,7 @@ for count,i in enumerate(mydivs,1):
     ET.SubElement(item,"description").text = str(count)
 
 tree =  ET.ElementTree(root)
-tree.write("filename.xml")
+tree.write(f"{html[:-5]}.xml")
 
 #for readable , pretty xml
 # dom = md.parse("sample.txt")

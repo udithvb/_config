@@ -1,0 +1,3 @@
+*.html
+*.xml
+!sample.xml
