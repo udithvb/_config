@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import xml.dom.minidom as md
 
 #read rendered html
-with open("cmp.html",'r') as ytf:
+with open("gav_sen.html",'r') as ytf:
     html_doc = ytf.read() 
 
 sp = BeautifulSoup(html_doc,'lxml')
